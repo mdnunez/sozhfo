@@ -1,9 +1,9 @@
-<img src="./extra/small_hnl_logo.png" height="128"> 
+<img src="./extra/Lopouratory.png" height="128"> 
 
 ### Citation
 
 Nunez, M. D., Charupanit, K., Sen-Gupta, I., & Lopour, B. A., Lin, J. J. (2020).
-Towards automatic classification of SOZ with interictal HFOs.
+Towards automatic classification of pathological epileptic tissue with interictal high frequency oscillations.
 
 
 
