@@ -9,7 +9,7 @@ Towards automatic classification of pathological epileptic tissue with intericta
 
 
 # sozhfo  
-#### (Repository version 0.1.0)
+#### (Repository version 0.1.1)
 
 **Authors: Michael D. Nunez, Krit Charupanit, Indranil Sen-Gupta, Beth A. Lopour, and Jack J. Lin from the University of California, Irvine**
 
