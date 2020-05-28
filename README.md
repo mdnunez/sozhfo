@@ -9,7 +9,7 @@ Towards automatic classification of pathological epileptic tissue with intericta
 
 
 # sozhfo  
-#### (Repository version 0.1.1)
+#### (Repository version 0.1.3)
 
 **Authors: Michael D. Nunez, Krit Charupanit, Indranil Sen-Gupta, Beth A. Lopour, and Jack J. Lin from the University of California, Irvine**
 
@@ -19,8 +19,6 @@ Towards automatic classification of pathological epileptic tissue with intericta
 [MATLAB](https://www.mathworks.com/)
 
 [MCMC Sampling Program: JAGS](http://mcmc-jags.sourceforge.net/)
-
-[Program: JAGS Wiener module](https://sourceforge.net/projects/jags-wiener/)
 
 [Scientific Python libraries](https://www.continuum.io/downloads)
 
