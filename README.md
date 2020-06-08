@@ -3,13 +3,13 @@
 ### Citation
 
 Nunez, M. D., Charupanit, K., Sen-Gupta, I., & Lopour, B. A., Lin, J. J. (2020).
-Towards automatic classification of pathological epileptic tissue with interictal high frequency oscillations.
+[Towards automatic classification of pathological epileptic tissue with interictal high frequency oscillations.](https://www.biorxiv.org/content/10.1101/2020.05.28.122416v1) bioRxiv 2020.05.28.122416
 
 
 
 
 # sozhfo  
-#### (Repository version 0.1.3)
+#### (Repository version 0.1.4)
 
 **Authors: Michael D. Nunez, Krit Charupanit, Indranil Sen-Gupta, Beth A. Lopour, and Jack J. Lin from the University of California, Irvine**
 
