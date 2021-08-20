@@ -1,7 +1,7 @@
 # hfo_fitmodel12.py - Script fits Model 12 using JAGS with real HFO count data
 #                     Accounting for possible overdispersion in the HFO count data
 #
-# Copyright (C) 2019 Michael D. Nunez, <mdnunez1@uci.edu>
+# Copyright (C) 2021 Michael D. Nunez, <m.d.nunez@uva.nl>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -25,6 +25,7 @@
 # 07/09/19       Michael Nunez              For loop for batch processing
 # 09/12/19       Michael Nunez                   Fix first window to state 1
 # 05/28/20      Michael Nunez             Remove patient identifiers
+# 08/20/21      Michael Nunez             Remove patient identifiers
 
 
 # References:
@@ -99,6 +100,8 @@ starthours = [4 -4, 33 -5]
 endhours = [8-3, 44 -4]
 NLatent = 4
 
+qHFO = True #Flag for usage of HFO artifact
+
 for p in range(0,len(patients)):
 
   patient = patients[p]
@@ -124,7 +127,10 @@ for p in range(0,len(patients)):
 
 
   # Load data
-  countsdic = sio.loadmat('/data/hfos/%s_HFOcounts_total.mat' % (patient))
+  if qHFO:
+    countsdic = sio.loadmat('/data/hfos/%s_qHFOcounts_total.mat' % (patient))
+  else:
+    countsdic = sio.loadmat('/data/hfos/%s_HFOcounts_total.mat' % (patient))
 
   timestepsize = 1 #in seconds
   windowsize = 300 #in seconds (5 minutes)
@@ -204,8 +210,11 @@ for p in range(0,len(patients)):
   # Run JAGS model
 
   # Choose JAGS model type
-  saveloc = '/data/jagsout/';
-  modelname = 'model12samples_%s_%s_%dLatent' % (patient,usingchans,NLatent)
+  saveloc = '/data/jagsout/'
+  if qHFO:
+    modelname = 'model12samples_%s_%s_qHFO_%dLatent' % (patient,usingchans,NLatent)
+  else:
+    modelname = 'model12samples_%s_%s_%dLatent' % (patient,usingchans,NLatent)
 
   # Save model
   timestart = strftime('%b') + '_' + strftime('%d') + '_' + \

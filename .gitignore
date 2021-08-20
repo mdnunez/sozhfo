@@ -2,6 +2,7 @@
 
 # Ignore figures
 figures/*.png
+figures/*.xcf
 
 # Ignore .mat data
 *.mat

@@ -198,7 +198,7 @@ def diagnostic(insamples):
 
 # Load generated smaples
 
-model = '/data/jagsmodel_model8samples_Patient1_grey_2LatentNov_19_18_11_17'
+model = '/data/jagsout/jagsmodel_model8samples_Patient1_grey_2LatentNov_19_18_11_17'
 
 
 
