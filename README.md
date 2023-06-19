@@ -3,7 +3,7 @@
 ### Citation
 
 Nunez, M. D., Charupanit, K., Sen-Gupta, I., & Lopour, B. A., Lin, J. J. (2022).
-[Beyond rates: Time-varying dynamics of high frequency oscillations as a biomarker of the seizure onset zone.](https://www.biorxiv.org/content/10.1101/2020.05.28.122416v2](https://iopscience.iop.org/article/10.1088/1741-2552/ac520f/meta) Journal of Neural Engineering. 19(1), 016034.
+[Beyond rates: Time-varying dynamics of high frequency oscillations as a biomarker of the seizure onset zone.](https://iopscience.iop.org/article/10.1088/1741-2552/ac520f/meta) Journal of Neural Engineering. 19(1), 016034.
 
 
 
